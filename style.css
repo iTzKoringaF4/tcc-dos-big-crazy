@@ -21,7 +21,7 @@ body{
     overflow-x:hidden;
     transition: 0.5s;
     padding-top: 60px;
-    z-index: 1;
+    z-index: 999;
 }
 .menuOculto a{
     text-align: center;
@@ -77,7 +77,7 @@ section{
 }
 .nav-item{
     position: relative;
-    left: 450px;
+    left: 400px;
 }
 .nav-item a{
     text-decoration: none;
@@ -93,7 +93,7 @@ section{
     color: #056e73;
     font-size: 22px;
 }
-/*Carrosel*/
+/*--------------------------------------------Carrosel------------------------------------------------------------*/
 .carrosel{
     width: 100%;
     height: 530px;
@@ -118,14 +118,12 @@ section{
     top: 20%;  
     font-size: 34px;
 }
-/*Sobre nós*/
+/*--------------------------------------------Sobre nós------------------------------------------------------------*/
 .sobre{
     width: 100%;
-    height: 530px;
+    height: 600px;
     position: relative;
     top: 10px;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
     background-color: #fff;
     justify-content: space-around;
     text-align: justify;
@@ -135,6 +133,7 @@ section{
     text-align: center;
     color: #CC5F1A;
     font-size: 60px;
+    margin-bottom: 20px;
 }
 .conteudoSobre{
     height: 500px;
@@ -156,10 +155,10 @@ section{
     height: 500px;
     position: relative;
 }
-/*Como Funciona*/
+/*--------------------------------------------Como Funciona------------------------------------------------------------*/
 .comoFunciona{
     width: 100%;
-    height: 530px;
+    height: 600px;
     position: relative;
     border-bottom: solid 2px black ;
     background-image: linear-gradient(to right,#cdffd8, #94b9ff);
@@ -171,13 +170,99 @@ section{
     text-align: center;
     color: #CC5F1A;
     font-size: 60px;
+    margin-bottom: 15px;
 }
 .conteudoComoFunciona{
-    width: 98%;
+    width: 100%;
     height: 500px;
     padding-left: 10px;
     padding-top: 15px;
 }
 .conteudoComoFunciona p{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.iconesComoFunciona{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 5%;
+}
+.iconeSeta{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: 20%;
+}
+.iconesComoFunciona p{
+    font-size: 18px;
+}
+.primeiraEtapa h3{
+    margin-bottom: 10px;
+}
+.segundaEtapa h3{
+    margin-bottom: 10px;
+}
+.terceiraEtapa h3{
+    margin-bottom: 10px;
+}
+.quartaEtapa h3{
+    margin-bottom: 10px;
+}
+/*--------------------------------------------Parceiros------------------------------------------------------------*/
+.parceiros{
+    width: 100%;
+    height: 530px;
+    position: relative;
+    top: 10px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    background-color: #fff;
+    text-align: center;
+}
+.parceiros h1{
+    color: #CC5F1A;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+/*--------------------------------------------Rodapé------------------------------------------------------------*/
+#rodape{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    padding-top: 50px;
+}
+.rodapeMenu{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.rodapeMenu a{
+    align-items: center;
+    text-decoration: none;
     font-size: 22px;
+    transition: 0.5s;
+    color: #fff;
+    position: relative;
+}
+.rodapeMenu a:hover{
+    color: #CC5F1A;
+}
+.rodapeContato{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40%;
+    padding-right: 40%;
 }
